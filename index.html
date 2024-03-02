@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Noughts and Crosses Game by R.A.Smith</title>
+  </head>
+  <body>
+    <h1 id="maintitle">NOUGHTS AND CROSSES</h1>
+    <h3>by R.A.Smith</h3>
+    <h1 id="win">YOU'RE THE WINNER!</h1>
+    <div id="container">
+      <div id="sqcontainer">
+        <div id="row1">
+          <label class="square" id="sq1" onclick="fill(1)"></label>
+          <label class="square" id="sq4" onclick="fill(4)"></label>
+          <label class="square" id="sq7" onclick="fill(7)"></label>
+        </div>
+        <div id="row2">
+          <label class="square" id="sq2" onclick="fill(2)"></label>
+          <label class="square" id="sq5" onclick="fill(5)"></label>
+          <label class="square" id="sq8" onclick="fill(8)"></label>
+        </div>
+        <div id="row3">
+          <label class="square" id="sq3" onclick="fill(3)"></label>
+          <label class="square" id="sq6" onclick="fill(6)"></label>
+          <label class="square" id="sq9" onclick="fill(9)"></label>
+        </div>
+      </div>
+      <div id="textcontainer">
+        <p id="turn">YOUR TURN</p>
+        <p id="subtitle" text-decoration="underline">GAMES WON</p>
+        <p id="you">YOU</p>
+        <p id="computer">COMPUTER</p>
+      </div>
+      <div>
+        <button id="newgame" onclick="newgame()">New Game</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

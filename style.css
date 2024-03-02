@@ -1,0 +1,110 @@
+
+body {
+    padding:0;
+    margin:0;
+}
+label {
+    font-family: "Comic Sans MS";
+}
+p {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+}
+
+#container {
+    
+    margin-top:20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#win {
+    text-align: center;
+    font-size: 40px;
+    font-family: "comic Sans MS";
+    color:orange;
+    visibility:hidden;
+}
+
+#sqcontainer {
+    align-content: center;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:340px;
+    height:330px;
+    border:solid navy 5px;
+}
+#maintitle {
+    text-align: center;
+    text-decoration: underline;
+    width:80%;
+    margin-left:10%;
+    align-content: center;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#turn {
+    font-size:30px;
+    color:green;
+}
+h3 {
+    text-align:center;
+    font-size: 20px;
+}
+#subtitle {
+    text-decoration: underline;
+}
+#textcontainer {
+    background-color: blanchedalmond;
+    width:300px;
+    height:340px;
+    padding-left:60px;
+    padding-right:20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.square {
+    display:flex;
+    flex-direction:column;
+    margin:4px;
+    background-color: yellow;
+    align-content: center;
+    justify-content:center;
+    text-align: center;
+    width:100px;
+    height:100px;
+    font-size: 80px;
+    font-family: "Comic Sans MS";
+
+}
+
+.square:hover {
+    /* border: solid green 1px; */
+    background-color: bisque;
+}
+
+#row* {
+    
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+
+#newgame {
+    margin:10px;
+    font-size: 25px;
+    font-family: "Comic Sans MS";
+
+}
+
+@media screen and (max-width:900px) {
+    #container {flex-direction:column;}
+    p {font-size: 22px;}
+    #textcontainer {width:260px;}
+    #textcontainer {height:240px;}
+
+    #turn {font-size: 22px;}
+    #win {font-size: 25px;}
+}
