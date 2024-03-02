@@ -1,7 +1,7 @@
 # Programming-Noughts-and-Crosses
 A project to create a standard Noughts and Crosses game from scratch
 
-I decided to explore programming a nout=ghts and crosses game using HTML, CSS and Javascript.
+I decided to explore programming a noughts and crosses game using HTML, CSS and Javascript.
 First, I wanted to understand how many different possibilities there are for a winning line.
 It turns out there are 3 horizontal rows (lines) and 3 vertical lines, plus 2 diagonal lines.
 So that means there are 8 possibilities for a win.
